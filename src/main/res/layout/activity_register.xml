@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_margin="@dimen/margin_Top"
+    android:orientation="vertical"
+    tools:context="com.rosius.helloworld.MainActivity">
+    <TextView
+        android:text="@string/btn_register"
+        android:layout_marginTop="@dimen/margin_Top"
+        android:textSize="@dimen/header_text_size"
+        android:textStyle="bold"
+        android:textColor="@color/primary_light"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/full_names"
+        android:hint="@string/full_names"
+        android:paddingLeft="@dimen/margin_Top"
+        android:background="@color/primary_light"
+        android:layout_marginTop="@dimen/margin_Top"
+        android:layout_marginBottom="@dimen/margin_Bottom"
+
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_height" />
+
+    <EditText
+        android:id="@+id/email"
+        android:hint="@string/email"
+        android:background="@color/primary_light"
+        android:layout_marginBottom="@dimen/margin_Bottom"
+        android:paddingLeft="@dimen/margin_Top"
+
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_height" />
+
+
+    <EditText
+        android:id="@+id/password"
+        android:hint="@string/password"
+        android:background="@color/primary_light"
+        android:layout_marginBottom="@dimen/margin_Bottom"
+        android:inputType="textPassword"
+
+        android:paddingLeft="@dimen/margin_Top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_height" />
+    <EditText
+        android:id="@+id/location"
+        android:hint="@string/location"
+        android:background="@color/primary_light"
+        android:layout_marginBottom="@dimen/margin_Top"
+
+        android:paddingLeft="@dimen/margin_Top"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_height" />
+
+
+    <Button
+        android:id="@+id/register"
+        android:background="@color/accent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_register"
+        />
+
+     <TextView
+         android:text="@string/already"
+         android:layout_gravity="center"
+         android:layout_marginTop="@dimen/margin_Top"
+         android:textColor="@color/primary_light"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/login"
+        android:background="@null"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_Top"
+        android:text="@string/btn_login"
+        />
+</LinearLayout>

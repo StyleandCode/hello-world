@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">HelloWorld</string>
+    <string name="btn_login">Login</string>
+    <string name="login_header">Log In</string>
+    <string name="already">Already Registered ?</string>
+
+    <string name="btn_register">Register</string>
+    <string name="full_names">please enter full names</string>
+    <string name="email">please enter correct email</string>
+    <string name="password">please enter password</string>
+    <string name="location">please enter location</string>
+
+</resources>
